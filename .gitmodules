@@ -1,0 +1,3 @@
+[submodule "packages/decorators"]
+	path = packages/decorators
+	url = https://github.com/cbdowell/microbe-decorators
