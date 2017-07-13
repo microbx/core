@@ -1,0 +1,27 @@
+{
+    "presets": [
+        "env",
+        "stage-0",
+        "flow"
+    ],
+    "plugins": [
+        "add-module-exports",
+        "transform-class-properties",
+        "syntax-class-properties",
+        "transform-decorators-legacy",
+        "syntax-decorators",
+        [
+            "module-resolver", {
+                "root": [
+                    ".",
+                    "./src"
+                ],
+                "alias": {
+                    "microbe/client": "./packages/client/src",
+                    "microbe/server": "./packages/server/src",
+                    "microbe/utils": "./packages/utils/src"
+                }
+            }
+        ]
+    ]
+}

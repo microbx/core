@@ -1,0 +1,16 @@
+.DS_STORE
+*.swp
+*~
+
+dist
+node_modules
+coverage
+
+lerna-debug.log
+npm-debug.log
+npm-debug.log*
+yarn-error.log*
+
+/packages/*/dist/
+/packages/*/coverage/
+/packages/*/node_modules/
