@@ -2,6 +2,8 @@
 *.swp
 *~
 
+.yarnclean
+
 dist
 node_modules
 coverage
@@ -14,3 +16,5 @@ yarn-error.log*
 /packages/*/dist/
 /packages/*/coverage/
 /packages/*/node_modules/
+
+.atomignore

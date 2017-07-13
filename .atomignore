@@ -1,6 +1,7 @@
 node_modules
 yarn.lock
 .yarnrc
-.flowconfig
-.gitignore
-#.editorconfig
+.yarnclean
+#.flowconfig
+#.gitignore
+.editorconfig

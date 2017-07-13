@@ -1,4 +1,4 @@
-import 'microbe/client'
+import '../packages/client'
 
 import Utils from 'microbe/utils'
 import Server from 'microbe/server'
